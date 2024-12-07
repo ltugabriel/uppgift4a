@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  max-height: 100%;
+}
+
 body {
   font-family: "Open
  Sans", sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
-  height: 100vh;
+  height: 100%;
 }
 
 main {
@@ -83,6 +87,7 @@ nav ul li a {
 .about-section,
 .contact-section,
 .booking-section {
+  height: 100%;
   padding: 40px;
   text-align: center;
 }
