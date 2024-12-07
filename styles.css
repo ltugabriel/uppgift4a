@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open
+ Sans", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #80916d;
+  padding: 20px 0;
+  color: #fff;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.hero {
+  color: #fff;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  z-index: 10;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  z-index: 10;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%) brightness(50%);
+  position: absolute;
+  z-index: -10;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-section,
+.about-section,
+.contact-section,
+.booking-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.menu-section ul {
+  list-style: none;
+}
+
+.menu-section ul li {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.booking-section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.booking-section form label {
+  margin-top: 10px;
+}
+
+.booking-section form input {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.booking-section form button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #80916d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
