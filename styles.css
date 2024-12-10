@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
+/* Max height 100% är bra här för att sidan ska fylla hela skärmen */
 html {
   max-height: 100%;
 }
 
 body {
-  font-family: "Open
- Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
@@ -38,6 +38,7 @@ nav ul {
   list-style: none;
 }
 
+/* lite luft mellan länkarna */
 nav ul li {
   margin: 0 15px;
 }
@@ -72,6 +73,7 @@ a {
   z-index: 10;
 }
 
+/* Här är det viktigt att bilden är i bakgrunden, position absolute och z-index -10 så att texten hamnar ovanpå bilden */
 .hero-image {
   width: 100%;
   height: 100%;
@@ -93,6 +95,7 @@ a {
   max-width: 700px;
 }
 
+/* centrera innehållet i dessa sektioner */
 .menu-section,
 .about-section,
 .contact-section,
@@ -110,6 +113,7 @@ a {
   width: 100%;
 }
 
+/* Rekommenderad maxbredd för text (blir ca 70-80 tecken) */
 .about-section div {
   width: 700px;
 }
