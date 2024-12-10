@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Header -->
     <header>
       <div class="container">
         <h1>Kaffebryggan</h1>
@@ -23,9 +22,7 @@
       </div>
     </header>
 
-    <!-- Main content -->
     <main>
-      <!-- Hero section -->
       <section id="home" class="hero">
         <div class="hero-content">
           <img src="hero.jpg" alt="Kaffebryggan café" class="hero-image" />
@@ -34,11 +31,12 @@
         </div>
       </section>
 
-      <!-- Booking section -->
       <section id="booking" class="booking-section">
         <h2>Boka bord</h2>
         <p>Fyll i formuläret för att boka bord för större sällskap.</p>
+        <!-- Formulär för att boka bord, man skulle kunna använda sig av en POST-request i formuläret för att skicka bokningsförfrågan till en server -->
         <form>
+         <!-- "for" attribut används för att koppla ihop label med input, required attribut för att göra fältet obligatoriskt -->
           <label for="name">Namn:</label>
           <input type="text" id="name" name="name" required />
 
@@ -49,6 +47,7 @@
           <input type="date" id="date" name="date" required />
 
           <label for="guests">Antal gäster:</label>
+          <!-- "number" typen används för att användaren ska kunna välja ett nummer, "min" och "max" attribut används för att sätta minsta och största värde -->
           <input
             type="number"
             id="guests"
@@ -63,7 +62,6 @@
       </section>
     </main>
 
-    <!-- Footer -->
     <footer>
       <p>&copy; 2024 Kaffebryggan.</p>
     </footer>

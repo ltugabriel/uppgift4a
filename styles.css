@@ -106,6 +106,10 @@ a {
   align-items: center;
 }
 
+.booking-section form {
+  width: 100%;
+}
+
 .about-section div {
   width: 700px;
 }
